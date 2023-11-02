@@ -109,7 +109,7 @@ a {
     z-index: 4; }
     @media (min-width: 992px) {
       .hero .intro-excerpt {
-        max-width: 450px; } }
+        max-width: 455px; } }
   .hero h1 {
     font-weight: 700;
     color: #ffffff;
@@ -313,12 +313,7 @@ a {
 
 .we-help-section {
   padding: 7rem 0; }
-  .we-help-section .imgs-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[27];
-    grid-template-columns: repeat(27, 1fr);
-    position: relative; }
+
     .we-help-section .imgs-grid:before {
       position: absolute;
       content: "";
